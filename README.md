@@ -13,12 +13,12 @@ BinaryHeap heap = new BinaryHeap(BinaryHeap.MIN);
 // Default is BinaryHeap.MAX
 ```
 
-The API is very simple, the following functions are avaiable :
+The API is very simple, the following functions are available :
   - ```add(Object o)``` : adds your object to the heap
   - ```pop()``` : removes and returns the object currently at the top of the heap
   - ```getTop()``` : returns (but doesn't remove) the object on the top
   - ```size()``` : number of objects on the heap
-  - ```isEmpty()``
+  - ```isEmpty()```
 
 The objects put on the heap must be Comparable (you have to implement a compareTo method in your object class), here is a simple example :
 ```
