@@ -42,7 +42,7 @@ public class SearchNode implements Comparable<SearchNode>
 Here is a complete example using the SearchNode class:
 ```
 BinaryHeap heap = new BinaryHeap();
-for (int i = 0; i < 5; i++)
+for (int i = 1; i <= 5; i++)
 {
   heap.add(new SearchNode(i));
 }
