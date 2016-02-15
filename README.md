@@ -48,7 +48,8 @@ for (int i = 1; i <= 5; i++)
 }
 while (!heap.isEmpty())
 {
-  System.out.println(heap.pop().priority);
+  SearchNode topNode = (SearchNode)heap.pop();
+  System.out.println(topNode.priority);
 }
 // The output will be : 5, 4, 3, 2, 1
 ```
