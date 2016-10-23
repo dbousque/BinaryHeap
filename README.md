@@ -20,7 +20,7 @@ The API is very simple, the following functions are available :
   - ```size()``` : number of objects on the heap
   - ```isEmpty()```
 
-The objects put on the heap must be Comparable (you have to implement a compareTo method in your object class), here is a simple example :
+The objects put on the heap must be Comparable :
 ```
 public class SearchNode implements Comparable<SearchNode>
 {
