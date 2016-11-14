@@ -4,7 +4,7 @@ A simple to use and fast binary heap implementation in Java.
 The heap is meant to be used as a priority queue.
 
 You can construct the heap like so :
-```
+```java
 BinaryHeap heap = new BinaryHeap();
 
 // You can also specify whether the heap has the object with the highest or the lowest value on top :
@@ -21,7 +21,7 @@ The API is very simple, the following functions are available :
   - ```isEmpty()```
 
 The objects put on the heap must be Comparable :
-```
+```java
 public class SearchNode implements Comparable<SearchNode>
 {
 
@@ -40,7 +40,7 @@ public class SearchNode implements Comparable<SearchNode>
 }
 ```
 Here is a complete example using the SearchNode class:
-```
+```java
 BinaryHeap heap = new BinaryHeap();
 for (int i = 1; i <= 5; i++)
 {
